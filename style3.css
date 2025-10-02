@@ -1,0 +1,97 @@
+.header h1,
+.header-2 h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  padding: 10px 0px;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  width: 100%;
+  background-color: #0c695e;
+}
+
+.header-2 {
+  padding: 10px 0px;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  width: 100%;
+  background-color: #0c695e;
+  margin-top: 40px;
+}
+
+.table {
+  text-align: center;
+}
+
+table {
+  font-size: 20px;
+  vertical-align: top;
+  margin-top: 20px;
+  border-collapse: collapse; /*for no double-boarders */
+  /* center positioning*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  border: 1px solid #252525;
+  padding: 8px;
+  text-align: left;
+  color: #252525;
+}
+
+th {
+  border: 1px solid #252525;
+  padding: 8px;
+  text-align: left;
+  color: white;
+}
+
+th {
+  background-color: #0c695e;
+}
+
+.special-row {
+  background-color: rgb(220, 220, 220);
+}
+
+.form-page{
+    background-color:rgb(220, 220, 220)
+}
+
+#form{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  color: rgb(0, 0, 0);
+  max-width: 500px;
+  padding: 50px 50px 50px 50px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 60%; /*make sure the form looks good on phone */
+}
+
+
+input {
+  padding: 10px 40px 10px 10px;
+  font-size: 15px;
+}
+
+.button-submit {
+  background-color: #0c695e;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 12px 0px 12px 0px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+}
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Table</h1>
+    </div>
+    <div class="table">
+      <h2 id="head-table">Students Grades</h2>
+      <table>
+        <tr>
+          <!-- columns names -->
+          <th>Name</th>
+          <th>Subject</th>
+          <th>Grade</th>
+        </tr>
+        <tr>
+          <td>Marry</td>
+          <td>Math</td>
+          <td>A</td>
+        </tr>
+        <tr class="special-row">
+          <td>Tom</td>
+          <td>Chemistry</td>
+          <td>A+</td>
+        </tr>
+        <tr>
+          <td>Maddie</td>
+          <td>Geography</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>Jerry</td>
+          <td>French</td>
+          <td>A-</td>
+        </tr>
+      </table>
+    </div>
+    <div class="form-page">
+      <div class="header-2">
+        <h1>Form</h1>
+      </div>
+      <form id = "form" action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label class="role-input" for="role">Role:</label>
+        <select id="role" name="role" required>
+          <option value="">Select your role</option>
+          <option value="student">Student</option>
+          <option value="teacher">Teacher</option>
+          <option value="other">Other</option>
+        </select>
+
+        <!-- Yes/No question -->
+        <p>Do you like our website?</p>
+        <div class="ques">
+          <input type="radio" id="yes" name="like" value="yes" required />
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="like" value="no" />
+          <label for="no">No</label>
+        </div>
+        <!-- Comments -->
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+        <!-- Submit button -->
+        <button class="button-submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
+
+<!-- Task 3.CSS Table and FORM
+Exercise: Table Styling
+Requirements:
+Create a webpage with a table that displays student grades.
+The table must include at least 3 columns (e.g., Name, Subject, Grade) and 3–4 rows of data.
+Apply the following CSS styling:
+Set a background color for the table header.
+Add borders for all cells.
+Use padding for table cells to make text readable.
+Apply alternate row colors using nth-child.
+Highlight one row with a different background color using a class (e.g., .highlight-row).
+Center-align text inside cells.
+Add a page heading above the table with an ID selector for custom styling.
+Exercise: Form Styling
+Requirements:
+Create a feedback form with the following fields:
+Text input for name.
+Email input for email address.
+Select dropdown for role (e.g., Student, Teacher, Other).
+Radio buttons for Yes/No type question.
+Textarea for comments.
+A submit button.
+Apply the following CSS styling:
+Center the form on the page with a fixed width.
+Add background color, padding, and rounded corners for the form container.
+Style labels with bold text.
+Style input fields, textarea, and dropdown with consistent width and spacing.
+Style the submit button with background color, hover effect, and rounded corners.
+Use at least one ID and one class in your CSS. -->
